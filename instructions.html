@@ -1,0 +1,102 @@
+<html>
+    <head>
+      <link href='https://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
+      <script src="js/JQuery-3.3.1.js"></script>
+      <script src="Js_Scripts/home.js"></script>
+    </head>
+    
+    <style>
+      body {
+  background:url('images/2.png');
+  margin:0px;
+  font-family: 'Ubuntu', sans-serif;
+	background-size: 100% 110%;
+}
+/* h1, h2, h3, h4, h5, h6, a {
+  margin:0; padding:0;
+} */
+.instruction {
+  margin:0 auto;
+  max-width:500px;
+}
+.instruction-header {
+  color:#fff;
+  margin-top:70px;
+  text-align:center;
+  font-size:300%;
+}
+/* .login-header h1 {
+   text-shadow: 0px 5px 15px #000; */
+/* .instruction-page{
+  border:.5px solid #fff;
+  background:white;
+  border-radius:10px;
+  box-shadow:0px 0px 10px #000;
+} */
+.instruction-page  h2 {
+  text-align:left;
+  margin-left:40px;
+  color:#fff;
+}
+h5{
+  text-align:left;
+  margin-left:40px;
+  color:white ;
+  position:absolute;
+  margin-top:10px;
+}
+
+.instruction-page {
+  box-sizing:border-box;
+  padding-top:50px;
+	padding-bottom:10%;
+  text-align:center;
+}
+
+.instruction-page input[type="button"] {
+  height:50px;
+  width:150px;
+  background:rgb(128, 208, 16);;
+  border:1px solid #f2f2f2;
+  border-radius:20px;
+  color: slategrey;
+  text-transform:uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  cursor:pointer;
+}
+
+
+/*Media Querie*/
+@media only screen and (min-width : 150px) and (max-width : 530px){
+  .instruction-page h5 {
+    text-align:center;
+    margin:0;
+  }
+ 
+}
+    
+    </style>
+    <body>
+       
+
+        <div class="instruction">
+          <div class="instruction-header">
+            <h5>How to play?</h5>
+          </div>
+          <div class="instruction-page">
+            <h2>♦ This game version includes two level : Low/high.</h2>
+            <h2>♦ choose a level and start shooting birds to increase your score.</h2>
+            <h2>♦ if you can shoot white bird you will win five points.The golden one get you 10 points.</h2>
+            <h2>♦ avoid shooting black one as your score will decrease.</h2>
+            <h2>♦ Try to play with high level to get more challenge.</h2>
+            <input type="button" onclick="location.href='Start Game.html'"  value="back" />
+            
+            
+          </div>
+        </div>
+        
+
+    </body>
+
+
+</html>

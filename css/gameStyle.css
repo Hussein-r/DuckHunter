@@ -1,0 +1,42 @@
+   .css1 {
+            position: absolute;
+            -webkit-user-select: none;
+
+        }
+
+        #maindiv {
+            height: 100%;
+            width: 100%;
+            background-image:url("../images/background.jpeg");
+        }
+
+        .css {
+            position: absolute;
+            -webkit-user-select: none;
+            
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            -webkit-user-select: none;
+        }
+
+        .lbl1 {
+            margin-top: 30px;
+            margin-left: 10px;
+            font-size:20px;
+            color: blue;
+            -webkit-user-select: none;
+        }
+        .lbl2 {
+            font-size:20px;
+            margin-left:10px;
+            color: blue;
+            -webkit-user-select: none;
+        }
+        #prgrs{
+            margin-top:20px;
+            position: absolute;
+            -webkit-user-select: none;
+        }

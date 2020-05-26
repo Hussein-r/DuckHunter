@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/gameStyle.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="JS_Scripts/jquery-3.2.1.js"></script>
+    <style>
+     
+    </style>
+</head>
+
+<body>
+    <div id="maindiv" onclick="playsound()">
+        <div class="col-3" id="prgrs">
+            <div class="progress">
+                <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" aria-valuemin="0"
+                    aria-valuemax="100" aria-valuenow="0" style="width:90%">0%</div>
+            </div>
+        </div>
+        <label class="lbl1"> Name: </label>
+        <label class="lbl1" id="username"> </label>
+        <br/>
+        <label class="lbl2">Score:</label>
+        <label class="lbl2" id="score">0</label>
+    </div>
+    <audio id="audio1" src="sound/GunSilencer.mp3"></audio>
+    <audio id="audio2" src="sound/GunReload.mp3"></audio>
+    <audio id="audio3" src="sound/coin.wav"></audio>
+
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="JS_Scripts/home.js"></script>
+    <script src="JS_Scripts/Game.js"></script>
+    <script src="JS_Scripts/bomb.js"></script>
+
+
+</body>
+
+</html>

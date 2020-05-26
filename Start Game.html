@@ -1,0 +1,48 @@
+<html>
+    <head>
+      <link href='https://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
+      <script src="JS_Scripts/jquery-3.2.1.js"></script>
+      <link href="css/gameStyle.css" rel="stylesheet" />
+      <link href="css/formStyle.css" rel="stylesheet" />
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    </head>
+    <style>
+    </style>
+    <body>
+        <div class="login">
+          <div class="login-header">
+            <h1>Login</h1>
+          </div>
+          <div class="login-form">
+            <h3>Username:</h3>
+            <input type="text" placeholder="Username" id="usernameField"/><br>
+            <br>
+            <h3>Select Your Level</h3>
+            <select id="myselect" >
+              
+              <option value="low">low level</option>
+              <option value="high">high level</option>
+            </select>
+            
+            <br>
+
+
+             <input type="button" value="Login" class="login-button" onclick= "savelocalfun();"/>
+            <br>
+            
+                <a class="instructions" href="./instructions.html">
+                  Don't know how to play ? we can handle it
+                </a>
+              
+              
+           </form>
+            
+          </div>
+        </div>
+        
+        
+        <script src="JS_Scripts/home.js"></script>
+    </body>
+
+
+</html>
